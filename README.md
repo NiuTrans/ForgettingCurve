@@ -1,7 +1,7 @@
 # Forgetting Curve
 A Reliable Method to Evaluate Memorization Capability for all Long Context Models
 
-# 环境配置
+## 环境配置
 ```
 git clone https://github.com/1azybug/ForgettingCurve.git
 cd ForgettingCurve
@@ -14,13 +14,13 @@ pip3 install -U xformers --index-url https://download.pytorch.org/whl/cu121 -i h
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-# 模型准备
+## 模型准备
 (Option)可以参考download.py预先下载模型，有些模型需要HF的Token，如meta-llama/Meta-Llama-3-8B
 ```
 HF_API_TOKEN="your_access_token" python download.py
 ```
 
-# 绘制在huggingface上开源的语言模型的遗忘曲线
+## 绘制在huggingface上开源的语言模型的遗忘曲线
 
 model_id为huggingface上的模型
 
@@ -54,7 +54,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python draw.py \
 
 更多模型的遗忘曲线绘制可以参考test.sh
 
-# 绘制自定义模型的遗忘曲线
+## 绘制自定义模型的遗忘曲线
 ```
 from draw import evaluate
 evaluate(model, tokenizer, texts_or_ids=test_tokens, config=config)
