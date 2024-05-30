@@ -21,11 +21,17 @@ HF_API_TOKEN="your_access_token" python download.py
 ```
 
 # 绘制在huggingface上开源的语言模型的遗忘曲线
+
 model_id为huggingface上的模型
+
 --repeat_time 控制每个长度重复测试的次数
+
 --granularity 控制等分点的数量
+
 --granularity_type "linear"表示长度线性增长，"log"表示长度以指数增长
+
 --test_max_length 表示测试的最大长度
+
 --training_len 绘制一个参考线，一般为训练长度
 
 下面的代码表示绘制meta-llama/Meta-Llama-3-8B在依赖长度16000以内（实际上最长的token序列达32000）的遗忘曲线。每16000/32长度进行测试，重复测试10次。
@@ -55,10 +61,13 @@ evaluate(model, tokenizer, texts_or_ids=test_tokens, config=config)
 ```
 model:自定义的模型
 tokenizer:模型对应的分词器，当texts_or_ids是形状为[S]的token序列张量时不需要传入
+
 texts_or_ids：可以是分词后的token序列张量、str或List[str]
 
 对于普通的Transformer模型来说不需要使用config。
+
 而对于segment-level循环的Transformer可以在config里实现一个teacher_forcing_forward的函数以进行更快更省的推理，详见example.py。
+
 teacher_forcing_forward的输入是model, prompt_ids，输出是predicted_token_ids。
 
 
