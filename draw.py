@@ -339,7 +339,7 @@ if __name__ == "__main__":
     torch.manual_seed(0)
     config = parse_args()
 
-    tokenizer = AutoTokenizer.from_pretrained(config["model_id"])
+    tokenizer = AutoTokenizer.from_pretrained(config["model_id"], trust_remote_code=True)
     if config["device"] == 'cpu':
         # model = AutoModelForCausalLM.from_pretrained(config["model_id"], trust_remote_code=True, device_map=config["device"], use_mamba_kernels=False, torch_dtype=torch.float16).eval()
         model = AutoModelForCausalLM.from_pretrained(config["model_id"], trust_remote_code=True, device_map=config["device"], torch_dtype=torch.float16).eval()
