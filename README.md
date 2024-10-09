@@ -7,7 +7,7 @@ Our paper [Forgetting Curve: A Reliable Method for Evaluating Memorization Capab
 ## Results
 ![image](https://github.com/user-attachments/assets/b60632b6-efc1-4a1e-a3f3-7decb503364d)
 
-The pictrue of their forgetting curve at [Picture](#Pictrue)
+The picture of their forgetting curve at [Picture](#Picture)
 
 # Usage
 - [English](#forgetting-curve)
@@ -172,7 +172,7 @@ evaluate(model, tokenizer, texts_or_ids=test_tokens, config=config)
 
 `teacher_forcing_forward`的输入是`model`, `prompt_ids`，输出是`predicted_token_ids`。
 
-#Pictrue
+#Picture
 
 
 
