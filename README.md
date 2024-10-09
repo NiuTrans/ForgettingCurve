@@ -1,10 +1,21 @@
 # Forgetting Curve
-A Reliable Method to Evaluate Memorization Capability for all Long Context Models
+Our paper [Forgetting Curve: A Reliable Method for Evaluating Memorization Capability for Long-context Models](https://arxiv.org/abs/2410.04727) has been accepted by [EMNLP 2024 main](https://2024.emnlp.org/program/accepted_main_conference/).
 
+## Method
+![image](https://github.com/user-attachments/assets/bfd147fe-2f78-4b61-a833-cd54c2ba09af)
+
+## Results
+![image](https://github.com/user-attachments/assets/b60632b6-efc1-4a1e-a3f3-7decb503364d)
+
+The pictrue of their forgetting curve at [Picture](#Pictrue)
+
+# Usage
 - [English](#forgetting-curve)
 - [中文](#遗忘曲线)
 
+
 # Forgetting Curve
+
 
 ## Table of Contents
 - [Environment Setup](#environment-setup)
@@ -160,5 +171,8 @@ evaluate(model, tokenizer, texts_or_ids=test_tokens, config=config)
 而对于segment-level循环的Transformer可以在config里实现一个teacher_forcing_forward的函数以进行更快更省的推理，详见example.py。
 
 `teacher_forcing_forward`的输入是`model`, `prompt_ids`，输出是`predicted_token_ids`。
+
+#Pictrue
+
 
 
