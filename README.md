@@ -177,7 +177,7 @@ evaluate(model, tokenizer, texts_or_ids=test_tokens, config=config)
 
 ![image](https://github.com/user-attachments/assets/7f9b71b5-7619-4833-a95c-bbcac2cb9dbe)
 
+![image](https://github.com/user-attachments/assets/88fc30a7-b92a-48ad-9f15-6ccc07c666e6)
 
-
-
+![image](https://github.com/user-attachments/assets/26353004-fe14-4ca9-a265-f27546688eff)
 
