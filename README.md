@@ -172,7 +172,12 @@ evaluate(model, tokenizer, texts_or_ids=test_tokens, config=config)
 
 `teacher_forcing_forward`的输入是`model`, `prompt_ids`，输出是`predicted_token_ids`。
 
-#Picture
+# Picture
+![image](https://github.com/user-attachments/assets/00102d9d-0203-45d4-b09e-dd43b8cd85b1)
+
+![image](https://github.com/user-attachments/assets/7f9b71b5-7619-4833-a95c-bbcac2cb9dbe)
+
+
 
 
 
