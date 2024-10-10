@@ -9,7 +9,7 @@ Our paper [Forgetting Curve: A Reliable Method for Evaluating Memorization Capab
 
 The picture of their forgetting curve at [Picture](#Picture) 
 
-[2024.10.9] We have newly tested [TTT](#TTT) and RWKV
+[2024.10.9] We have newly tested [TTT](#TTT) and [RWKV](#RWKV)
 
 # Usage
 - [English](#forgetting-curve)
@@ -187,4 +187,8 @@ evaluate(model, tokenizer, texts_or_ids=test_tokens, config=config)
 ![ffe79768139bcf949d692102e7dbd62](https://github.com/user-attachments/assets/ea4ef757-6d1b-4105-a246-f0125e30cc42)
 
 ![7541cf7b8540cb14918ffcb1d1383b3](https://github.com/user-attachments/assets/03bc626e-8bd4-4253-a732-6c8e6f7c9dcb)
+
+### RWKV
+![image](https://github.com/user-attachments/assets/a5d3290f-c9cf-4b71-a672-97566bb41aac)
+
 
