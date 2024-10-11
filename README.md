@@ -191,4 +191,7 @@ evaluate(model, tokenizer, texts_or_ids=test_tokens, config=config)
 ### RWKV
 ![image](https://github.com/user-attachments/assets/a5d3290f-c9cf-4b71-a672-97566bb41aac)
 
+![image](https://github.com/user-attachments/assets/93022bb3-228e-4a9f-9055-f5c04a1e40a7)
+
+
 
