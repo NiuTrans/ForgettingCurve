@@ -12,6 +12,9 @@ The picture of their forgetting curve at [Picture](#Picture)
 [2024.10.9] We have newly tested [TTT](#TTT) and [RWKV](#RWKV)
 
 # Usage
+## Quick start
+You can use our code online in this [notebook](https://www.kaggle.com/code/fallingflower/forgettingcurve).
+
 - [English](#forgetting-curve)
 - [中文](#遗忘曲线)
 
