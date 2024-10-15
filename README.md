@@ -11,6 +11,7 @@ The picture of their forgetting curve at [Picture](#Picture)
 
 [2024.10.9] We have newly tested [TTT](#TTT) and [RWKV](#RWKV)
 
+[2024.10.15] We have newly tested [gemma-2](#gemma-2), [MiniCMP3](#MiniCMP3), [Qwen2](#Qwen2), [Yi-1.5](#Yi-1.5)
 # Usage
 ## Quick start
 You can use our code online in this [notebook](https://www.kaggle.com/code/fallingflower/forgettingcurve).
@@ -196,5 +197,15 @@ evaluate(model, tokenizer, texts_or_ids=test_tokens, config=config)
 
 ![image](https://github.com/user-attachments/assets/93022bb3-228e-4a9f-9055-f5c04a1e40a7)
 
+### gemma-2
+![gemma-2-2b](https://github.com/user-attachments/assets/691ce00e-9d4f-4ee0-9afa-eb4b2c3f05ac)
 
+### MiniCMP3
+![MiniCPM3-4B](https://github.com/user-attachments/assets/478cb616-78ab-47ef-ac7f-56c23a8da0fc)
+
+### Qwen2
+![Qwen2-7B](https://github.com/user-attachments/assets/388ba1fb-b3e0-4bc6-bd2b-067d3b13202a)
+
+### Yi-1.5
+![Yi-1_5-6B](https://github.com/user-attachments/assets/670f7097-285f-4248-877b-01ca5d8b036e)
 
